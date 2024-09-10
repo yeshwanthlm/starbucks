@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-BlackItalic.eot');
+    src: local('SoDo Sans Black Italic'), local('SoDoSans-BlackItalic'),
+        url('SoDoSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-BlackItalic.woff2') format('woff2'),
+        url('SoDoSans-BlackItalic.woff') format('woff'),
+        url('SoDoSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Black.eot');
+    src: local('SoDo Sans Black'), local('SoDoSans-Black'),
+        url('SoDoSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Black.woff2') format('woff2'),
+        url('SoDoSans-Black.woff') format('woff'),
+        url('SoDoSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Bold.eot');
+    src: local('SoDo Sans Bold'), local('SoDoSans-Bold'),
+        url('SoDoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Bold.woff2') format('woff2'),
+        url('SoDoSans-Bold.woff') format('woff'),
+        url('SoDoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-LightItalic.eot');
+    src: local('SoDo Sans Light Italic'), local('SoDoSans-LightItalic'),
+        url('SoDoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-LightItalic.woff2') format('woff2'),
+        url('SoDoSans-LightItalic.woff') format('woff'),
+        url('SoDoSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Regular.eot');
+    src: local('SoDo Sans Regular'), local('SoDoSans-Regular'),
+        url('SoDoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Regular.woff2') format('woff2'),
+        url('SoDoSans-Regular.woff') format('woff'),
+        url('SoDoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Light.eot');
+    src: local('SoDo Sans Light'), local('SoDoSans-Light'),
+        url('SoDoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Light.woff2') format('woff2'),
+        url('SoDoSans-Light.woff') format('woff'),
+        url('SoDoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Italic.eot');
+    src: local('SoDo Sans Italic'), local('SoDoSans-Italic'),
+        url('SoDoSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Italic.woff2') format('woff2'),
+        url('SoDoSans-Italic.woff') format('woff'),
+        url('SoDoSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-BoldItalic.eot');
+    src: local('SoDo Sans Bold Italic'), local('SoDoSans-BoldItalic'),
+        url('SoDoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-BoldItalic.woff2') format('woff2'),
+        url('SoDoSans-BoldItalic.woff') format('woff'),
+        url('SoDoSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-ThinItalic.eot');
+    src: local('SoDo Sans Thin Italic'), local('SoDoSans-ThinItalic'),
+        url('SoDoSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-ThinItalic.woff2') format('woff2'),
+        url('SoDoSans-ThinItalic.woff') format('woff'),
+        url('SoDoSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-SemiBoldItalic.eot');
+    src: local('SoDo Sans SemiBold Italic'), local('SoDoSans-SemiBoldItalic'),
+        url('SoDoSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('SoDoSans-SemiBoldItalic.woff') format('woff'),
+        url('SoDoSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-Thin.eot');
+    src: local('SoDo Sans Thin'), local('SoDoSans-Thin'),
+        url('SoDoSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-Thin.woff2') format('woff2'),
+        url('SoDoSans-Thin.woff') format('woff'),
+        url('SoDoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SoDo Sans';
+    src: url('SoDoSans-SemiBold.eot');
+    src: local('SoDo Sans SemiBold'), local('SoDoSans-SemiBold'),
+        url('SoDoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SoDoSans-SemiBold.woff2') format('woff2'),
+        url('SoDoSans-SemiBold.woff') format('woff'),
+        url('SoDoSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

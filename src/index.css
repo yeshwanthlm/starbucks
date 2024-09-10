@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: SoDoSans_Light,Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #edebe9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: SoDoSans_Black;
+  src: url(./assests/font/SoDoSans-Black.woff2) format("woff2"),url(./assests/font/SoDoSans-Black.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SoDosans_Bold;
+  src: url(./assests/font/SoDoSans-Bold.woff2) format("woff2"),url(./assests/font/SoDoSans-Bold.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SoDoSans_Light;
+  src: url(./assests/font/SoDoSans-Light.woff2) format("woff2"),url(./assests/font/SoDoSans-Light.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SoDoSans_Regular;
+  src: url(./assests/font/SoDoSans-Regular.woff2) format("woff2"),url(./assests/font/SoDoSans-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SoDoSans_Semibold;
+  src: url(./assests/font/SoDoSans-SemiBold.woff2) format("woff2"),url(./assests/font/SoDoSans-SemiBold.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+:root{
+  --bg-gree-500 : #00754a;
+}
+
+/* swiper for barista */
+
+.swiper-button {
+  position: absolute;
+  top: 30px;
+  
+  z-index: 100;
+  cursor: pointer;
+}
+
+.swiper-button svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.image-swiper-button-prev {
+  top: 55px;
+  left: -20px;
+}
+
+.image-swiper-button-next {
+  top: 55px;
+  right: -20px;
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+}
+
+/* swiper for banner */
+.swiper-button-banner {
+  position: absolute;
+  top: 30px;
+  
+  z-index: 100;
+  cursor: pointer;
+}
+
+.swiper-button-banner svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.image-swiper-button-prev-banner {
+  top: 85px;
+  left: -12px;
+}
+
+.image-swiper-button-next-banner {
+  top: 85px;
+  right: -12px;
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+}

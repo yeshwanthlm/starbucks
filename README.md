@@ -1,7 +1,7 @@
 # Deploy Starbucks Clone Application AWS using DevSecOps Approach
 https://app.eraser.io/workspace/59NJfCay26dUMl5YAlFl?origin=share
 
-# **Install `AWS CLI`**
+# **Install AWS CLI**
 ```
 sudo apt install unzip -y
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -9,7 +9,7 @@ unzip awscliv2.zip
 sudo ./aws/install
 ```
  
-# **Install `Jenkins` on Ubuntu:**
+# **Install Jenkins on Ubuntu:**
 
 ```
 #!/bin/bash
@@ -28,7 +28,7 @@ sudo systemctl status jenkins
 ```
 
 
-# **Install `Docker` on Ubuntu:**
+# **Install Docker on Ubuntu:**
 ```
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -49,13 +49,15 @@ sudo systemctl status docker
 ```
 
 
-# **Install `Docker Scout`:**
+# **Install Docker Scout:**
 ```
 docker login       `Give Dockerhub credentials here`
 ```
 ```
 curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh -s -- -b /usr/local/bin
 ```
+# Deployment Stages:
+<img width="966" alt="Screenshot 2024-09-15 at 7 20 49 AM" src="https://github.com/user-attachments/assets/ddb5e618-79ab-49b3-8f13-b5114824eec3">
 
 
 # Jenkins Complete pipeline
